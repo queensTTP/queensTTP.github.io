@@ -1,0 +1,663 @@
+@import url("//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,500,600,700,900");
+#page.ttp {
+  font-family: Oswald;
+  overflow: hidden; }
+  #page.ttp a.open-house {
+    width: 100%;
+    background-color: #e7542c;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding: 15px 0;
+    font-weight: 400;
+    display: inline-block; }
+  #page.ttp .top-section {
+    height: 702px; }
+    #page.ttp .top-section .bg-image-lander {
+      z-index: 1;
+      position: absolute;
+      height: 702px;
+      width: 100%;
+      background: url("/images/git_conflict.jpg") no-repeat;
+      background-size: cover; }
+    #page.ttp .top-section .wrapper-text {
+      z-index: 4;
+      position: relative;
+      padding-top: 5px;
+      left: 0;
+      right: 0;
+      max-width: 960px;
+      margin: 0 auto; }
+      #page.ttp .top-section .wrapper-text .centered .logo-alt {
+        float: left;
+        width: 153px;
+        margin-top: 50px;
+        margin-left: 53px; }
+      #page.ttp .top-section .wrapper-text .top-title {
+        font-weight: 400;
+        font-size: 70px;
+        float: left;
+        position: relative;
+        top: 140px;
+        clear: both;
+        color: #fff;
+        line-height: 70px; }
+        #page.ttp .top-section .wrapper-text .top-title p {
+          font-weight: 400;
+          font-size: 50px;
+          line-height: 65px;
+          margin-bottom: 0; }
+        #page.ttp .top-section .wrapper-text .top-title .sub-title {
+          font-size: 32px;
+          line-height: 42px;
+          font-weight: 300; }
+          #page.ttp .top-section .wrapper-text .top-title .sub-title:first-of-type {
+            margin-top: 25px; }
+          #page.ttp .top-section .wrapper-text .top-title .sub-title p {
+            font-size: 32px;
+            font-weight: 300;
+            line-height: 42px; }
+        #page.ttp .top-section .wrapper-text .top-title .can-title {
+          margin-top: 20px;
+          text-transform: uppercase;
+          font-size: 25px;
+          font-weight: 300; }
+          #page.ttp .top-section .wrapper-text .top-title .can-title p {
+            font-size: 25px;
+            font-weight: 300;
+            line-height: 40px; }
+      #page.ttp .top-section .wrapper-text .form-right {
+        float: right;
+        max-width: 410px;
+        position: relative;
+        line-height: initial;
+        margin-right: 10px;
+        top: -143px; }
+        #page.ttp .top-section .wrapper-text .form-right .title {
+          font-weight: 400;
+          font-size: 30px;
+          color: #fff;
+          text-align: center;
+          margin-bottom: 20px;
+          line-height: 40px; }
+          #page.ttp .top-section .wrapper-text .form-right .title p {
+            font-weight: 400;
+            font-size: 30px;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 20px;
+            line-height: 40px; }
+        #page.ttp .top-section .wrapper-text .form-right .learn-more {
+          width: 325px;
+          background: rgba(225, 225, 225, 0.85);
+          color: black;
+          margin: 0 auto;
+          text-align: center; }
+          #page.ttp .top-section .wrapper-text .form-right .learn-more .form-top {
+            font-family: "Oswald", sans-serif;
+            background-color: #fff;
+            color: white;
+            padding: 15px 13px;
+            font-size: 25px;
+            line-height: 35px;
+            font-weight: 400;
+            color: #000; }
+          #page.ttp .top-section .wrapper-text .form-right .learn-more .container {
+            margin-top: 10px;
+            color: #000; }
+            #page.ttp .top-section .wrapper-text .form-right .learn-more .container input.learn {
+              width: 85%;
+              height: 40px;
+              margin: 7px 0;
+              color: #000;
+              border: none;
+              border-radius: 0;
+              padding-left: 8px;
+              font-size: 18px;
+              background-color: #fff; }
+            #page.ttp .top-section .wrapper-text .form-right .learn-more .container select.choice {
+              -webkit-appearance: none;
+              -moz-webkit-appearance: none;
+              -ms-webkit-appearance: none;
+              -o-webkit-appearance: none;
+              width: 85%;
+              margin-bottom: 8px;
+              border-radius: 0;
+              padding-left: 8px;
+              border: 0;
+              height: 40px;
+              font-size: 18px;
+              background-color: #fff;
+              margin: 5px 0; }
+            #page.ttp .top-section .wrapper-text .form-right .learn-more .container .italics {
+              font-family: "Oswald", sans-serif;
+              font-style: italic;
+              font-size: 14px;
+              font-weight: 400;
+              margin: 5px 0;
+              color: #000;
+              margin-bottom: 10px; }
+            #page.ttp .top-section .wrapper-text .form-right .learn-more .container input[type="submit"].form-button {
+              -webkit-appearance: none;
+              font-family: "Oswald", sans-serif;
+              background-color: #e7542c;
+              color: white;
+              padding: 4px 10px;
+              width: 85%;
+              border-radius: 0;
+              font-size: 25px;
+              display: inline-block;
+              text-align: center;
+              position: relative;
+              font-weight: 400;
+              letter-spacing: 3px;
+              cursor: pointer;
+              border: 0;
+              margin-bottom: 10px; }
+            #page.ttp .top-section .wrapper-text .form-right .learn-more .container .terms {
+              font-size: 14px;
+              font-family: "Oswald", sans-serif;
+              padding: 0 20px;
+              font-weight: 300; }
+              #page.ttp .top-section .wrapper-text .form-right .learn-more .container .terms a.contest-terms {
+                color: inherit;
+                font-weight: inherit; }
+  #page.ttp .middle-section {
+    height: auto;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 0 auto; }
+    #page.ttp .middle-section .sponsor-container {
+      max-width: 960px;
+      margin: 0 auto;
+      background-color: #fff;
+      color: #828282;
+      padding: 36px 0;
+      font-size: 40px;
+      font-weight: 300;
+      text-align: center; }
+      #page.ttp .middle-section .sponsor-container .sponsor-text-title {
+        display: inline-block;
+        position: relative; }
+      #page.ttp .middle-section .sponsor-container .logo {
+        display: inline-block;
+        margin: 0 35px; }
+      #page.ttp .middle-section .sponsor-container .first {
+        width: 75px; }
+    #page.ttp .middle-section .contest-container {
+      height: 650px;
+      background-color: #EBEBEB;
+      width: 50%; }
+      #page.ttp .middle-section .contest-container .contest-body {
+        color: #000000;
+        max-width: 350px;
+        margin: 0 auto;
+        font-size: 20px;
+        padding-top: 40px;
+        font-family: "Source Sans Pro"; }
+        #page.ttp .middle-section .contest-container .contest-body .contest-text {
+          font-weight: 300;
+          margin-bottom: 20px;
+          line-height: 1.3; }
+          #page.ttp .middle-section .contest-container .contest-body .contest-text .contest-bold {
+            font-weight: 400;
+            font-family: "Oswald", sans-serif; }
+        #page.ttp .middle-section .contest-container .contest-body ul li {
+          margin-left: 22px;
+          list-style: initial;
+          font-weight: 300;
+          line-height: 1.3; }
+        #page.ttp .middle-section .contest-container .contest-body .contest-italics {
+          font-weight: 300;
+          font-style: italic;
+          line-height: 1.3;
+          font-size: 16px; }
+          #page.ttp .middle-section .contest-container .contest-body .contest-italics a.contest-terms {
+            color: inherit;
+            font-weight: inherit; }
+    #page.ttp .middle-section .amst-container {
+      background: url("/wp-content/themes/nycda-2015/images/amsterdam-lander_location-pic.png");
+      height: 575px;
+      background-size: cover;
+      width: 50%; }
+    #page.ttp .middle-section .about-amst {
+      background: url("/wp-content/themes/nycda-2015/images/douglaston-lander_woman-pic.png");
+      height: 525px;
+      background-size: cover;
+      width: 50%; }
+    #page.ttp .middle-section .course-container {
+      background-color: #EBEBEB;
+      height: 525px;
+      width: 50%;
+      color: #828282; }
+      #page.ttp .middle-section .course-container .course-title {
+        font-size: 20px;
+        font-weight: 400;
+        padding-top: 25px;
+        padding-left: 65px;
+        line-height: 1.5; }
+        #page.ttp .middle-section .course-container .course-title .sub-title {
+          margin-top: 10px;
+          font-size: 27px;
+          font-weight: 300; }
+        #page.ttp .middle-section .course-container .course-title p {
+          font-size: inherit;
+          line-height: inherit;
+          margin-bottom: 0; }
+      #page.ttp .middle-section .course-container .course-text {
+        font-family: "Source Sans Pro";
+        font-size: 20px;
+        padding-left: 65px;
+        width: 400px;
+        line-height: 1.3;
+        font-weight: 300; }
+      #page.ttp .middle-section .course-container ul {
+        margin-left: 22px;
+        list-style: initial; }
+    #page.ttp .middle-section .amst-logos-container {
+      background-color: #EBEBEB;
+      padding: 30px 0;
+      height: auto; }
+      #page.ttp .middle-section .amst-logos-container .amst .amst-title {
+        font-size: 27px;
+        color: #828282;
+        font-weight: 300;
+        padding-top: 10px; }
+      #page.ttp .middle-section .amst-logos-container .amst .amst-logos {
+        background: url("/wp-content/themes/nycda-2015/images/amsterdam-lander_logos.png") no-repeat;
+        background-size: contain;
+        height: 200px; }
+      #page.ttp .middle-section .amst-logos-container .amst .amst-logos-mobile {
+        background: url("/wp-content/themes/nycda-2015/images/amsterdam-lander_logos-stacked.png") no-repeat;
+        display: none; }
+    #page.ttp .middle-section .class {
+      background: url("/wp-content/themes/nycda-2015/images/guy-image_biz-dev-lander.png");
+      height: 450px;
+      background-size: cover;
+      width: 50%; }
+      #page.ttp .middle-section .class .class-box {
+        height: auto;
+        width: 250px;
+        float: right;
+        margin-right: 40px;
+        margin-top: 50px;
+        background-color: #EBEBEB;
+        display: table-cell;
+        vertical-align: middle;
+        padding: 10px;
+        font-weight: 300;
+        line-height: 1.2;
+        font-size: 18px;
+        color: #828282; }
+        #page.ttp .middle-section .class .class-box .class-box-text {
+          display: table-cell;
+          vertical-align: middle;
+          border-right: solid 1px #828282; }
+        #page.ttp .middle-section .class .class-box .class-box-info {
+          display: table-cell;
+          vertical-align: middle;
+          padding-left: 10px; }
+    #page.ttp .middle-section .class-container {
+	background-color: #558C89;
+      height: 650px;
+      color: #fff;
+      width: 50%; }
+      #page.ttp .middle-section .class-container .class-title {
+        font-size: 30px;
+        padding-top: 80px;
+        padding-right: 49%; }
+      #page.ttp .middle-section .class-container .class-text {
+        font-family: "Source Sans Pro";
+        font-size: 20px;
+        padding-top: 25px;
+        padding-right: 30%;
+        font-weight: 300;
+        max-width: 350px;
+        line-height: 1.6;
+        clear: both; }
+      #page.ttp .middle-section .class-container .instructor-title {
+        padding-top: 20px;
+        max-width: 400px;
+        font-size: 25px;
+        padding-right: 201px; }
+      #page.ttp .middle-section .class-container .instructor-bio {
+        font-family: "Source Sans Pro" !important;
+        font-weight: 300;
+        padding-right: 140px;
+        padding-top: 20px;
+        max-width: 400px;
+        font-size: 20px; }
+      #page.ttp .middle-section .class-container .enroll-now {
+        font-family: "Oswald", sans-serif;
+        background-color: #fff;
+        color: #558C89;
+        padding: 4px 10px;
+        width: 85%;
+        border-radius: 0;
+        font-size: 23px;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        font-weight: 400;
+        letter-spacing: 1px;
+        cursor: pointer;
+        border: 0;
+        margin-bottom: 10px; }
+      #page.ttp .middle-section .class-container .class-skill-title {
+        font-size: 25px;
+        padding-top: 25px;
+        padding-right: 240px;
+        font-weight: 300;
+        width: 300px;
+        line-height: 1.8;
+        clear: both; }
+        #page.ttp .middle-section .class-container .class-skill-title ul {
+          float: left;
+          padding-top: 15px;
+          font-family: "Source Sans Pro"; }
+          #page.ttp .middle-section .class-container .class-skill-title ul li {
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 1.5; }
+        #page.ttp .middle-section .class-container .class-skill-title .second {
+          padding-left: 40px; }
+    #page.ttp .middle-section .mobile {
+      display: none; }
+    #page.ttp .middle-section .about-us {
+      background: url("/images/minerva.jpg");
+      height: 800px;
+      background-size: cover;
+      width: 50%; }
+    #page.ttp .middle-section .about-us-container {
+      background-color: #558C89;
+      height: 800px;
+      width: 50%;
+      color: #fff; }
+      #page.ttp .middle-section .about-us-container .about-title {
+        font-size: 16px;
+        padding-top: 50px;
+        padding-right: 395px;
+        padding-left: 20px;
+        max-width: 160px;
+        white-space: nowrap; }
+      #page.ttp .middle-section .about-us-container .about-text {
+        font-family: "revisal";
+        font-size: 16px;
+        padding-top: 80px;
+        padding-right: 26%;
+        padding-bottom: 80px;
+        max-width: 400px;
+        line-height: 1.2;
+        font-weight: 300;
+        clear: both; }
+        #page.ttp .middle-section .about-us-container .about-text ul li {
+          margin-left: 20px; }
+      #page.ttp .middle-section .about-us-container .locations-text {
+        font-family: "Source Sans Pro";
+        font-size: 18px;
+        padding-top: 45px;
+        padding-right: 200px;
+        max-width: 350px;
+        line-height: 1.2;
+        font-weight: 400;
+        padding-left: 20px;
+        clear: both; }
+  #page.ttp .footer {
+    background-color: #fff;
+    color: #000;
+    padding: 40px 0; }
+    #page.ttp .footer .footer-location {
+      text-align: center;
+      font-size: 18px;
+      line-height: 1.6; }
+
+@media all and (max-width: 960px) {
+  #page.ttp .top-section .wrapper-text .top-title {
+    margin-left: 10px; }
+  #page.ttp .middle-section .sponsor-container {
+    padding: 30px 10px; }
+    #page.ttp .middle-section .sponsor-container .sponsor-text-title {
+      display: block;
+      text-align: center;
+      padding: 70px 0 20px 0; }
+    #page.ttp .middle-section .sponsor-container .logo {
+      display: block;
+      margin: 0 auto;
+      text-align: center; }
+    #page.ttp .middle-section .sponsor-container .first {
+      margin-bottom: 10px; }
+  #page.ttp .middle-section .course-container .course-title {
+    padding-left: 7%; }
+  #page.ttp .middle-section .course-container .course-text {
+    padding-left: 7%;
+    padding-right: 7%;
+    max-width: 350px; }
+  #page.ttp .middle-section .about-us-container .about-title {
+    padding-right: 20%; }
+  #page.ttp .middle-section .about-us-container .about-text {
+    padding-right: 1%;
+    font-size: 16px; }
+  #page.ttp .middle-section .about-us-container .locations-text {
+    padding-right: 2%; }
+  #page.ttp .middle-section .class-container .class-title {
+    padding-right: 20%; }
+  #page.ttp .middle-section .class-container .class-text {
+    padding-right: 5%; }
+  #page.ttp .middle-section .class-container .class-skill-title {
+    padding-right: 5%; } }
+@media all and (max-width: 770px) {
+  #page.ttp .top-section .wrapper-text .centered .logo-alt {
+    float: left;
+    width: 100px; } }
+@media all and (max-width: 480px) {
+  #page.ttp .top-section {
+    height: 1300px; }
+    #page.ttp .top-section .bg-image-lander {
+      height: 1300px;
+      width: 480px;
+      background-position: center; }
+    #page.ttp .top-section .wrapper-text .centered .logo-alt {
+      float: none;
+      margin-top: 70px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: -39px;
+      display: block; }
+    #page.ttp .top-section .wrapper-text .centered .top-title {
+      float: none;
+      margin-top: -60px;
+      margin-left: 0;
+      text-align: center; }
+      #page.ttp .top-section .wrapper-text .centered .top-title .sub-title {
+        padding: 0 32px; }
+        #page.ttp .top-section .wrapper-text .centered .top-title .sub-title p {
+          display: inline;
+          font-size: 32px; }
+    #page.ttp .top-section .wrapper-text .centered .mob-break {
+      display: block;
+      line-height: 0; }
+    #page.ttp .top-section .wrapper-text .form-right {
+      float: none;
+      top: 70px;
+      clear: both;
+      margin-right: 0; }
+  #page.ttp .middle-section .contest-container {
+    width: initial;
+    height: auto;
+    padding: 40px 32px; }
+    #page.ttp .middle-section .contest-container .contest-body {
+      width: initial;
+      padding-top: 0;
+      padding-left: 0; }
+  #page.ttp .middle-section .amst-container {
+    width: initial; }
+  #page.ttp .middle-section .about-amst {
+    width: initial; }
+  #page.ttp .middle-section .desktop {
+    display: none; }
+  #page.ttp .middle-section .mobile {
+    display: block; }
+  #page.ttp .middle-section .course-container {
+    height: auto;
+    width: initial;
+    padding: 40px 32px; }
+    #page.ttp .middle-section .course-container .course-title {
+      text-align: left;
+      padding-left: 0;
+      padding-top: 0; }
+    #page.ttp .middle-section .course-container .course-text {
+      width: initial;
+      padding-left: 0;
+      padding-bottom: 20px; }
+    #page.ttp .middle-section .course-container .last {
+      padding-bottom: 0; }
+  #page.ttp .middle-section .amst-logos-container .amst .amst-title {
+    text-align: center; }
+  #page.ttp .middle-section .amst-logos-container .amst .amst-logos {
+    display: none; }
+  #page.ttp .middle-section .amst-logos-container .amst .amst-logos-mobile {
+    display: block;
+    background-size: cover;
+    height: 490px; }
+  #page.ttp .middle-section .class-container {
+    width: initial;
+    height: auto;
+    padding: 40px 32px; }
+    #page.ttp .middle-section .class-container .class-title {
+      padding-top: 50px;
+      padding-right: 0;
+      float: none; }
+    #page.ttp .middle-section .class-container .class-text {
+      padding-right: 0;
+      float: none;
+      width: initial; }
+    #page.ttp .middle-section .class-container .instructor-title, #page.ttp .middle-section .class-container .instructor-bio {
+      padding-right: 0;
+      float: none;
+      width: initial; }
+    #page.ttp .middle-section .class-container .class-skill-title {
+      float: none;
+      padding-right: 0;
+      width: initial; }
+    #page.ttp .middle-section .class-container .second {
+      padding-left: 15px;
+      padding-right: 10px;
+      float: right; }
+  #page.ttp .middle-section .class {
+    width: initial; }
+    #page.ttp .middle-section .class .class-box {
+      margin-top: 368px;
+      width: initial;
+      margin-right: 0;
+      padding: 20px; }
+  #page.ttp .middle-section .about-us {
+    background-position: center; }
+  #page.ttp .middle-section .about-us-container {
+    width: initial;
+    height: auto;
+    padding: 0 32px; }
+    #page.ttp .middle-section .about-us-container .about-title {
+      float: none;
+      padding: 25px 0 0 0;
+      font-size: 20px; }
+    #page.ttp .middle-section .about-us-container .about-text {
+      float: none;
+      padding-left: 0;
+      padding-right: 0; }
+    #page.ttp .middle-section .about-us-container .locations-text {
+      float: none;
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 30px; }
+  #page.ttp .middle-section .about-us {
+    width: initial; }
+  #page.ttp .bottom-section {
+    margin-top: 115px; }
+    #page.ttp .bottom-section .about-ang {
+      width: 100%; }
+      #page.ttp .bottom-section .about-ang .ang-title {
+        width: initial;
+        padding-left: 0;
+        text-align: center; }
+        #page.ttp .bottom-section .about-ang .ang-title ol.reasons {
+          padding: 0 32px; }
+          #page.ttp .bottom-section .about-ang .ang-title ol.reasons li {
+            text-align: left;
+            margin-left: 0; }
+    #page.ttp .bottom-section .ang-container {
+      width: 100%;
+      height: auto; }
+      #page.ttp .bottom-section .ang-container .ang-title {
+        margin-left: 0; }
+      #page.ttp .bottom-section .ang-container .ang-logos {
+        background-size: contain;
+        margin-left: 0;
+        height: 250px; }
+    #page.ttp .bottom-section .about-us {
+      width: 100%; }
+    #page.ttp .bottom-section .course-container {
+      width: 100%; }
+    #page.ttp .bottom-section .mobile {
+      display: block; }
+    #page.ttp .bottom-section .desktop {
+      display: none; }
+    #page.ttp .bottom-section .mission {
+      width: 100%; }
+    #page.ttp .bottom-section .about-us-container {
+      width: 100%;
+      height: auto;
+      padding-bottom: 50px; }
+      #page.ttp .bottom-section .about-us-container .about-title {
+        padding: 45px 0 32px 32px;
+        float: none; }
+      #page.ttp .bottom-section .about-us-container .about-text {
+        padding: 0 32px;
+        float: none;
+        width: initial;
+        padding-top: 20px;
+        padding-bottom: 80px; }
+      #page.ttp .bottom-section .about-us-container .locations-text {
+        padding: 0 32px;
+        float: none;
+        margin-top: 20px; }
+  #page.ttp .footer {
+    padding: 20px 0; } }
+@media all and (max-width: 320px) {
+  #page.ttp .top-section {
+    height: 1350px; }
+    #page.ttp .top-section .bg-image-lander {
+      height: 1350px;
+      background-position: center; }
+    #page.ttp .top-section .wrapper-text .centered .logo-alt {
+      margin-top: 80px;
+      margin-bottom: -50px; }
+    #page.ttp .top-section .wrapper-text .centered .top-title {
+      font-size: 45px; }
+      #page.ttp .top-section .wrapper-text .centered .top-title p {
+        font-size: 45px; }
+      #page.ttp .top-section .wrapper-text .centered .top-title .sub-title p {
+        font-size: 32px; }
+    #page.ttp .top-section .wrapper-text .form-right .learn-more {
+      width: 310px; }
+  #page.ttp .middle-section .class-container .class-skill-title ul {
+    float: none; }
+  #page.ttp .middle-section .class-container .class-skill-title .second {
+    padding-left: 0;
+    float: none; }
+  #page.ttp .middle-section .about-us {
+    background-position: center; }
+  #page.ttp .middle-section .about-us-container .about-text {
+    float: none;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 80px; }
+  #page.ttp .middle-section .course-container .course-title {
+    padding-left: 0;
+    padding-bottom: 5px; }
+  #page.ttp .middle-section .course-container .course-text {
+    width: initial;
+    padding: 0 0 20px 0; } }
+
+/*# sourceMappingURL=ttp-lander.css.map */
+.evmail {Background-color: #558C89;}
+.tm {margin: 0px 0px 0px 30px;}
